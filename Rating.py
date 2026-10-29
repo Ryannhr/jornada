@@ -14,7 +14,7 @@ ratingmaior que 2, imprimir'Fair'
 Caso contrário, imprima'Poor'
 '''
 
-rating = int(input('How would you rate us?\nRate from 0 to 5:\n'))
+rating = float(input('How would you rate us?\nRate from 0 to 5:\n'))
 
 if rating >= 4.5:
   print('Perfection')
